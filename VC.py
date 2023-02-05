@@ -12,12 +12,12 @@ def right():
     vc[1]=vc[1]+1
 def left():
     vc[1]=vc[1]-1
-def prRed(skk): print("\033[46m{}\033[00m".format(skk),end=' ')
+def BlueBG(s): print("\033[46m{}\033[00m".format(s),end=' ')
 def pr():
     for i in range(n):
         for j in range(n):
             if vc[0]==i and vc[1]==j:
-                prRed(l[i][j])
+                BlueBG(l[i][j])
             else:
                 print(l[i][j],end=' ')
         print('')
