@@ -79,4 +79,4 @@ while c<=(n*n-1): # agent position at (0,0)
         c+=1
     right()
     down()
-print('All rooms cleaned bro')  
+print('All rooms cleaned')  
